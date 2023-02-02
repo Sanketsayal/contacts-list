@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0;
+}
+.contact{
+    color:white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.contact-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height:20px;
+    padding: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    width: 120px;
+    height: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    width:50px;
+    height:25px;
+}
+.delete{
+    border: 1px solid red;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin: 3px;
+}
+.delete i{
+    color: red;
+}
